@@ -5,6 +5,8 @@ import { snails } from './snails.js';
 import SnailList from './SnailList.js';
 import { foods } from './foods.js';
 import FoodList from './FoodList.js';
+import { teams } from './teams.js';
+import TeamList from './TeamList.js';
 
 function App() {
   return (
@@ -14,6 +16,9 @@ function App() {
       />
       <FoodList 
         foods = { foods }
+      />
+      <TeamList 
+        teams = { teams }
       />
     </div>
   );
