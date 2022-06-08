@@ -1,11 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 // import your arrays here
+import { snails } from './snails.js';
+import SnailList from './SnailList.js';
 
 function App() {
   return (
     <div className="App">
-        Render all your lists here. Pass the arrays as props.
+      <SnailList 
+        snails = { snails }
+      />
     </div>
   );
 }
