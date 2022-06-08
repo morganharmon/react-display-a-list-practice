@@ -4,11 +4,11 @@ export default function SnailList({ snails }) {
   return (
     <div>
       <em>My Snails:</em>
-      <p>
+      <div>
         {
           snails.map((snail, i) => <SnailItem snail={snail} key={snail + i} />)
         }
-      </p>
+      </div>
     </div>
   );
 }

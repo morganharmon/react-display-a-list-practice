@@ -1,4 +1,3 @@
-import { teams } from './teams';
 
 export default function TeamItem({ name, stars, city }) {
   return (

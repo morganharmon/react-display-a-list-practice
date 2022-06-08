@@ -7,6 +7,8 @@ import { foods } from './foods.js';
 import FoodList from './FoodList.js';
 import { teams } from './teams.js';
 import TeamList from './TeamList.js';
+import { animals } from './animals.js';
+import AnimalList from './AnimalList.js';
 
 function App() {
   return (
@@ -19,6 +21,9 @@ function App() {
       />
       <TeamList 
         teams = { teams }
+      />
+      <AnimalList 
+        animals = { animals }
       />
     </div>
   );

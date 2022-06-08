@@ -1,7 +1,7 @@
 export default function SnailItem({ snail }) {
   return (
-    <div>
+    <p>
       { snail }
-    </div>
+    </p>
   );
 }
